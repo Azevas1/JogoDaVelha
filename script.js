@@ -54,9 +54,5 @@ function isWin(){
 }
 
 function reset() {
-var square = document.querySelectorAll(".square")
-
-square.forEach((square)=>{
-    square.innerText = "";})
-
+    window.location.reload()
 }
